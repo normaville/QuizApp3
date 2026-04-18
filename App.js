@@ -95,6 +95,7 @@ export default function App() {
       correct: 0 
     }
   ];
+  
 
   return (
     <ThemeProvider theme={theme}>
