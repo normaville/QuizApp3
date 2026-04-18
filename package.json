@@ -2,11 +2,14 @@
   "name": "quizapp3",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://normaville.github.io/QuizApp3/",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "predeploy": "expo export -p web",
+    "deploy": "gh-pages --nojekyll -d dist"
   },
   "dependencies": {
     "@expo/metro-runtime": "~6.1.2",
@@ -20,8 +23,5 @@
     "react-native-web": "^0.21.0",
     "react-test-renderer": "^19.2.4"
   },
-  "private": true,
-  "devDependencies": {
-    "gh-pages": "^6.3.0"
-  }
+  "private": false
 }
