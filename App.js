@@ -95,7 +95,7 @@ export default function App() {
       correct: 0 
     }
   ];
-  
+
 
   return (
     <ThemeProvider theme={theme}>
@@ -110,10 +110,30 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 20, backgroundColor: '#fff' },
-  center: { textAlign: 'center', marginBottom: 20 },
-  card: { padding: 15, borderBottomWidth: 1, borderColor: '#eee' },
-  bold: { fontWeight: 'bold', marginBottom: 5 },
-  correct: { fontWeight: 'bold', color: 'green' },
-  wrong: { textDecorationLine: 'line-through', color: 'red' }
+  container: { 
+    flex: 1, 
+    padding: 20, 
+    backgroundColor: '#fff' 
+  },
+  center: { 
+    textAlign: 'center', 
+    marginBottom: 20 
+  },
+  card: { 
+    padding: 15, 
+    borderBottomWidth: 1, 
+    borderColor: '#eee' 
+  },
+  bold: { 
+    fontWeight: 'bold', 
+    marginBottom: 5 
+  },
+  correct: { 
+    fontWeight: 'bold', 
+    color: 'green' 
+  },
+  wrong: { 
+    textDecorationLine: 'line-through', 
+    color: 'red' 
+  }
 });
